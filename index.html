@@ -5,13 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Tech Post</title>
   </head>
+  <header class="cabecalho">
+    <img class="logo-Novo" alt="Noticias" src="./src/img/logo_de_noticias.png" height="150px" width="150px"/>
+   
+        <div class="logo"><strong>MENU</strong></div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"> <img class="menu" src="./src/img/icono_de_menu.png" alt="menu"></label>
+
+        <nav class="navigation">
+          
+          <ul>
+              <li> <a href="#">Inicio</a></li>
+              <li> <a href="#">Categorias</a> 
+                  <ul>
+                    <li><a href="#">Nome da categoria</a></li>
+                  </ul>
+              </li>
+              <li> <a href="#">Noticias</a> 
+                  <ul>
+                    <li><a href="#">Titulo</a></li>
+                    <li><a href="#">Descricao</a></li>
+                    <li><a href="#">Imagem</a></li>
+                    <li><a href="#">Categoria</a></li>
+                    <li><a href="#">Data da publicacao</a></li>
+                    <li><a href="#">Data da atualizacao</a></li>
+                  </ul>
+              
+              </li>
+
+          </ul>
+        </nav>
+          <div class="search">
+              <form action="" method="" class="search-bar">
+                  <input type="text" placeholder="search">
+                  <button type="submit"> SEND</button>
+  
+              </form>
+  
+          </div>
+  </header>
   <body>
-    <header>menu</header>
-    <main>
-      <div>
+  
+    <main class="principal" >
+      <div class="caixa">
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -21,7 +60,7 @@
         </p>
         <button>Acessar</button>
       </div>
-      <div>
+      <div class="caixa">
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -31,7 +70,7 @@
         </p>
         <button>Acessar</button>
       </div>
-      <div>
+      <div class="caixa">
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -41,7 +80,7 @@
         </p>
         <button>Acessar</button>
       </div>
-      <div>
+      <div class="caixa" >
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -51,7 +90,7 @@
         </p>
         <button>Acessar</button>
       </div>
-      <div>
+      <div class="caixa">
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -61,7 +100,7 @@
         </p>
         <button>Acessar</button>
       </div>
-      <div>
+      <div class="caixa">
         <h2>Title</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -73,6 +112,6 @@
       </div>
     </main>
     <footer>footer</footer>
-    <script src="/src/js/script.js"></script>
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
